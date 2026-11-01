@@ -2,8 +2,8 @@
 int main()
 {
     int num,decimal,r,place=1,binary=0;
-    printf("Enter a Decimal number");
-    scanf("%d",&num);
+    printf("Enter a Decimal number :");
+    scanf("%d\n",&num);
     while(num>0)
         {
             r = num%2;
@@ -11,6 +11,6 @@ int main()
             place = place*10;
             binary = binary+(r*place);
         }
-    printf("%d",binary);
+    printf("The Binary equivalent of the decimal number is : %d",binary);
     return 0;
 }
