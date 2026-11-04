@@ -3,7 +3,7 @@ int main()
 {
     int num,decimal,r,place=1,binary=0;
     printf("Enter a Decimal number :");
-    scanf("%d\n",&num);
+    scanf("%d",&num);
     while(num>0)
         {
             r = num%2;
